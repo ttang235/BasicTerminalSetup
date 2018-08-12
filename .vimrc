@@ -1,4 +1,4 @@
-" try to follow [this post](https://segmentfault.com/a/1190000003962806)
+" follow this: https://segmentfault.com/a/1190000003962806
 
 set nocompatible              " required
 filetype off                  " required
