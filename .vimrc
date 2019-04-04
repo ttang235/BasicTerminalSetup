@@ -18,7 +18,7 @@ Plugin 'nvie/vim-flake8'
 let python_highlight_all=1
 syntax on
 set nu
-Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+" Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
