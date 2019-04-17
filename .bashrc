@@ -125,3 +125,4 @@ LS_COLORS=$LS_COLORS:'di=0;34:ex=0;32' ; export LS_COLORS
 alias gs='git status'
 alias ga='git add'
 alias gcm='git commit -m'
+export EDITOR=vim
