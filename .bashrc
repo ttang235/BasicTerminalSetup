@@ -121,3 +121,7 @@ THEIP=$(hostname -i)
 PS1="\[\033[01;31m\]\u@"$THEIP" \w $\[\033[00m\] ";
 
 LS_COLORS=$LS_COLORS:'di=0;34:ex=0;32' ; export LS_COLORS
+
+alias gs='git status'
+alias ga='git add'
+alias gcm='git commit -m'
