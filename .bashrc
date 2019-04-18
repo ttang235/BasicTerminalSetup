@@ -117,8 +117,14 @@ if ! shopt -oq posix; then
 fi
 
 alias s='source ~/.bashrc'
+
+# $STY is like '1234.download'
+IFS=. read screen_num screen_name <<EOF
+$STY
+EOF
+
 THEIP=$(hostname -i)
-PS1="\[\033[01;31m\]\u@"$THEIP" \w $\[\033[00m\] ";
+PS1="\[\033[01;31m\]\u@"$THEIP":"$screen_name":\W $\[\033[00m\] ";
 
 LS_COLORS=$LS_COLORS:'di=0;34:ex=0;32' ; export LS_COLORS
 
