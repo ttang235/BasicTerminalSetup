@@ -133,3 +133,8 @@ alias ga='git add'
 alias gcm='git commit -m'
 alias scn='screen'
 export EDITOR=vim
+
+# https://superuser.com/a/599156/509573
+function title {
+    echo -ne "\033]0;"$*"\007"
+}
