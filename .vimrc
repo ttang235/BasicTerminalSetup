@@ -30,6 +30,11 @@ filetype plugin indent on    " required
 " filetype on
 " set ai
 " set ruler
+" Highlight trailing whitespaces, https://vim.fandom.com/wiki/Highlight_unwanted_spaces
+:highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
+:autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+:match ExtraWhitespace /\s\+$/
+
 set encoding=utf-8
 set laststatus=2
 set incsearch
