@@ -131,7 +131,12 @@ LS_COLORS=$LS_COLORS:'di=0;34:ex=0;32' ; export LS_COLORS
 alias gs='git status'
 alias ga='git add'
 alias gcm='git commit -m'
+alias gd='git diff'
 alias gdc='git diff --cached'
+alias gb='git branch'
+alias gpull='git pull'
+alias gpush='git push'
+alias gf='git fetch'
 alias scn='screen'
 export EDITOR=vim
 
